@@ -23,3 +23,18 @@ jobs:
         uses: ludeeus/action-shellcheck@2.0.0
         with:
           scandir: './scripts'
+  jwk-validation:
+    name: JWK Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+      - name: Install dependencies
+        run: uv sync
+      - name: Validate JWK files
+        run: uv run python3 scripts/validate_jwk.py

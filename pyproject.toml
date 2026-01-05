@@ -1,0 +1,9 @@
+[project]
+name = "rfc9500-test-vectors"
+version = "1.0.0"
+dependencies = [
+    "cryptography",
+]
+
+[tool.uv]
+dev-dependencies = []

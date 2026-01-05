@@ -18,18 +18,18 @@
 
 |testRSA1024|||
 |--|--|--|
-|private|[pem](./pem/testRSA1024.pem)||
-|public|[pem](./pem/testRSA1024.pub.pem)||
+|private|[pem](./pem/testRSA1024.pem)|[jwk](./jwk/testRSA1024.json)|
+|public|[pem](./pem/testRSA1024.pub.pem)|[jwk](./jwk/testRSA1024.pub.json)|
 
 |testRSA2048|||
 |--|--|--|
-|private|[pem](./pem/testRSA2048.pem)||
-|public|[pem](./pem/testRSA2048.pub.pem)||
+|private|[pem](./pem/testRSA2048.pem)|[jwk](./jwk/testRSA2048.json)|
+|public|[pem](./pem/testRSA2048.pub.pem)|[jwk](./jwk/testRSA2048.pub.json)|
 
 |testRSA4096|||
 |--|--|--|
-|private|[pem](./pem/testRSA4096.pem)||
-|public|[pem](./pem/testRSA4096.pub.pem)||
+|private|[pem](./pem/testRSA4096.pem)|[jwk](./jwk/testRSA4096.json)|
+|public|[pem](./pem/testRSA4096.pub.pem)|[jwk](./jwk/testRSA4096.pub.json)|
 
 ## DLP Keys
 
@@ -50,20 +50,20 @@
 
 ## ECDLP Keys
 
-|testECCP256|||
-|--|--|--|
-|private|[pem](./pem/testECCP256.pem)|[hex](./hex/testECCP256.hex)|
-|public|[pem](./pem/testECCP256.pub.pem)|[hex](./hex/testECCP256.pub.hex)|
+|testECCP256||||
+|--|--|--|--|
+|private|[pem](./pem/testECCP256.pem)|[hex](./hex/testECCP256.hex)|[jwk](./jwk/testECCP256.json)|
+|public|[pem](./pem/testECCP256.pub.pem)|[hex](./hex/testECCP256.pub.hex)|[jwk](./jwk/testECCP256.pub.json)|
 
-|testECCP384|||
-|--|--|--|
-|private|[pem](./pem/testECCP384.pem)|[hex](./hex/testECCP384.hex)|
-|public|[pem](./pem/testECCP384.pub.pem)|[hex](./hex/testECCP384.pub.hex)|
+|testECCP384||||
+|--|--|--|--|
+|private|[pem](./pem/testECCP384.pem)|[hex](./hex/testECCP384.hex)|[jwk](./jwk/testECCP384.json)|
+|public|[pem](./pem/testECCP384.pub.pem)|[hex](./hex/testECCP384.pub.hex)|[jwk](./jwk/testECCP384.pub.json)|
 
-|testECCP521|||
-|--|--|--|
-|private|[pem](./pem/testECCP521.pem)|[hex](./hex/testECCP521.hex)|
-|public|[pem](./pem/testECCP521.pub.pem)|[hex](./hex/testECCP521.pub.hex)|
+|testECCP521||||
+|--|--|--|--|
+|private|[pem](./pem/testECCP521.pem)|[hex](./hex/testECCP521.hex)|[jwk](./jwk/testECCP521.json)|
+|public|[pem](./pem/testECCP521.pub.pem)|[hex](./hex/testECCP521.pub.hex)|[jwk](./jwk/testECCP521.pub.json)|
 
 ## Security considerations
 
